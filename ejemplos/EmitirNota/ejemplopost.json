@@ -1,0 +1,54 @@
+{
+    "Email": "usuario@sudominio.com.ar",
+    "Password": "SuContraseña",
+    "Nota": {
+        "Numero": 17,
+        "Fecha": "2015-07-13",
+        "FechaVencimiento": "2015-07-13",
+        "FechaDesde": "2015-07-13",
+        "FechaHasta": "2015-07-13",
+        "AutoEnvioCorreo": false,
+        "HashComprobanteRelacionado": "878176267FD23",
+        "PuntoVenta": 1,
+        "FormaPago": 5,
+        "TipoComprobante": 4,
+        "DetalleFactura": [{
+                "Cantidad": 1,
+                "ValorUnitario": 150,
+                "Total": 150,
+                "Descripcion": "Servicio de Consultoría 1",
+                "Codigo": "",
+                "AlicuotaIVA": 3,
+                "IVA": 31.5,
+                "UnidadMedida": 7,
+                "Bonificacion": 0,
+                "ConceptoFactura": 2
+            },
+            {
+                "Cantidad": 1,
+                "ValorUnitario": 150,
+                "Total": 150,
+                "Descripcion": "Servicio de Consultoría 2",
+                "Codigo": "",
+                "AlicuotaIVA": 3,
+                "IVA": 31.5,
+                "UnidadMedida": 7,
+                "Bonificacion": 0,
+                "ConceptoFactura": 2
+            }
+        ],
+        "Cliente": {
+            "Actualizar": "true",
+            "RazonSocial": "CLIENTE S.A.",
+            "Identificador": "20-11111111-9",
+            "Email": "proveedores@sucliente.com.ar",
+            "Direccion": "Juan De Garay 1234",
+            "Localidad": "Olivos",
+            "CodigoPostal": "1234",
+            "Provincia": 1,
+            "CondicionImpositiva": 3,
+            "TipoPersona": 1,
+            "TipoDocumento": 1
+        }
+    }
+}

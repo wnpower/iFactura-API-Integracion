@@ -1,0 +1,9 @@
+{ 
+     "Nota" : { 
+           "HashFactura" : "8E98D81F8217304975CCB23337BB5761",        
+           "NotaCredito" : true,
+        "AutoEnviarCorreo" : true       
+    }, 
+     "Email" : "demo@ifactura.com.ar", 
+     "Password" : "testing1"
+}
