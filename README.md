@@ -20,9 +20,9 @@ Las siguientes peticiones API son las que puede integrar con su sistema
 
 ### EmitirFactura
 Este procedimiento permite emitir una nueva factura electrónica, la cual será validada online por AFIP con su respectivo CAE y almacenada en iFactura. Este procedimiento cumple con todas las normativas vigentes y respeta las mismas validaciones de datos que se realizan de manera online al ser utilizado vía web. 
-**URL: **https://app.ifactura.com.ar/API/EmitirFactura 
-**Método: **POST
-**Codificación: **JSON
+* **URL:** https://app.ifactura.com.ar/API/EmitirFactura 
+* **Método:** POST
+* **Codificación:** JSON  
 ![Diagrama de clases de método EmitirFactura](imgs/emitirfactura.png)
 
 Comentarios:
@@ -38,9 +38,9 @@ Comentarios:
 
 ### EmitirNotadesdeFactura
 Este procedimiento permite generar una nota de crédito o débito, a partir de la especificación de una factura ya emitida en iFactura. Además, esta es la forma por la que la reglamentación de AFIP posibilita la anulación de una factura ya emitida. 
-**URL: **https://app.ifactura.com.ar/API/EmitirNotadesdeFactura
-**Método: **POST
-**Codificación: **JSON
+* **URL:** https://app.ifactura.com.ar/API/EmitirNotadesdeFactura
+* **Método:** POST
+* **Codificación:** JSON  
 ![Diagrama de clases de método EmitirNotadesdeFactura](imgs/emitirnotadesdefactura.png)
 
 Comentarios:
@@ -52,9 +52,9 @@ Comentarios:
 
 ### EmitirNota
 Este procedimiento permite emitir una nueva nota de crédito o débito electrónica parcial o total de un comprobante ya emitido, la cual será validada online por AFIP con su respectivo CAE y almacenada en iFactura. Este procedimiento cumple con todas las normativas vigentes y respeta las mismas validaciones de datos que se realizan de manera online al ser utilizado vía web. 
-**URL: **https://app.ifactura.com.ar/API/EmitirNota
-**Método: **POST
-**Codificación: **JSON
+* **URL:** https://app.ifactura.com.ar/API/EmitirNota
+* **Método:** POST
+* **Codificación:** JSON  
 ![Diagrama de clases de método EmitirNota](imgs/emitirnota.png)
 
 Comentarios:
