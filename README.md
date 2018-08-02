@@ -15,6 +15,9 @@ Para poder hacer uso de la API, se requiere lo siguiente:
 * Acceso a Internet para la generación de las peticiones HTTP.
 * Posibilidad en su sistema de enviar información en formato JSON cumpliendo con los datos más adelante descriptos.
 
+## Entorno de pruebas
+Para utilizar un sandbox de la versión oficial, por favor abrir un ticket en soporte técnico solicitando la activación del mismo.
+
 ## APIS Disponibles
 Las siguientes peticiones API son las que puede integrar con su sistema
 
