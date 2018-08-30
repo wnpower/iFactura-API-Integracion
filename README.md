@@ -38,6 +38,7 @@ Comentarios:
 * El campo "AutoEnvioCorreo" es para confirmar que iFactura envíe automáticamente el comprobante emitido, vía correo electrónico.
 * Los valores de tipo "float" que hacen referencia a montos son redondeados a dos dígitos decimales, en caso de que envíen de forma incorrecta. En la comunicación de los datos, el punto (.) es tomado como separador de decimales, ya que es el estándar definido en la codificación JSON.
 * Los campos "Email" y "Password" del objeto "APIJson" refieren a las credenciales de su usuario en iFactura para poder emitir comprobantes. Ud. Puede crear un usuario exclusivo para el acceso mediante API, aislado de los demás usuarios de su servicio.
+* El array de DetalleTributos no es obligatorio enviarlo ya que no es necesario para la mayoria de los clientes. En caso de utilizarlo, los campos que contengan * son obligatorios. El campo ImporteBase hace referencia al monto sobre el cual se aplica el tributo y el campo ImporteImpuesto es el valor que se cobra en caracter de impuesto. DetalleExtendido es solamente para que quede acentado de manera informativa, algún dato adicional para futuras referencias.
 
 ### EmitirNotadesdeFactura
 Este procedimiento permite generar una nota de crédito o débito, a partir de la especificación de una factura ya emitida en iFactura. Además, esta es la forma por la que la reglamentación de AFIP posibilita la anulación de una factura ya emitida. 
