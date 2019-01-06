@@ -80,6 +80,7 @@ Comentarios:
 Las tablas de sistema permiten normalizar la entrada de datos por la API.
 El uso de un valor inválido o fuera de rango, que no esté registrado en las siguientes tablas de sistema será informado mediante un mensaje de error.
 
+### IVA
 | Id   | Porcentaje                      |
 |------|---------------------------------|
 | 1    | 0%                              |
