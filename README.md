@@ -29,7 +29,7 @@ Este procedimiento permite emitir una nueva factura electrónica, la cual será 
 ![Diagrama de clases de método EmitirFactura](imgs/emitirfactura.png)
 
 Comentarios:
-* Los campos marcados con asterisco(*) son obligatorios mínimamente para poder emitir facturas de tipo B menores a un total de $ 1000, ya que en los mismos no es necesario especificar todos los datos del cliente.
+* Los campos marcados con asterisco(*) son obligatorios mínimamente para poder emitir facturas de tipo B menores a un total de $ 5000, ya que en los mismos no es necesario especificar todos los datos del cliente.
 * Para el resto de los comprobantes, es requerido el completado de todos los datos del cliente, a excepción que el cliente ya se encuentre dado de alta en iFactura para Ud., en cuyo caso es solamente requerido el documento (CUIT/CUIL/DNI) y los demás datos serán auto-completados.
 * El campo "Actualizar" es de tipo Booleano, da la posibilidad de actualizar los datos ya almacenados del cliente en iFactura, caso que el campo este en "True" y el cliente no este dado de alta, se procedera con el alta regular del cliente.
 * En todos los campos de fechas, al no ser requerida la hora, deberán ser completados con valores en el siguiente formato "yyyy-mm-dd", caso contrario podrá causar un error que impida procesar su pedido y se informará de dicha situación, impidiendo la continuación de la emisión del comprobante.
@@ -66,7 +66,7 @@ Este procedimiento permite emitir una nueva nota de crédito o débito electrón
 ![Diagrama de clases de método EmitirNota](imgs/emitirnota.png)
 
 Comentarios:
-* Los campos marcados con asterisco(*) son obligatorios mínimamente para poder emitir notas de tipo B menores a un total de $ 1000, ya que en los mismos no es necesario especificar todos los datos del cliente.
+* Los campos marcados con asterisco(*) son obligatorios mínimamente para poder emitir notas de tipo B menores a un total de $ 5000, ya que en los mismos no es necesario especificar todos los datos del cliente.
 * Para el resto de los comprobantes, es requerido el completado de todos los datos del cliente, a excepción que el cliente ya se encuentre dado de alta en iFactura para Ud., en cuyo caso es solamente requerido el documento (CUIT/CUIL/DNI) y los demás datos serán auto-completados.
 * En todos los campos de fechas, al no ser requerida la hora, deberán ser completados con valores en el siguiente formato "yyyy-mm-dd", caso contrario podrá causar un error que impida procesar su pedido y se informará de dicha situación, impidiendo la continuación de la emisión del comprobante.
 * El campo "PuntoVenta" es un valor numérico (Id) en referencia al punto de venta configurado en iFactura para poder emitir comprobantes. Por ejemplo, si el punto de venta es el número 3, dicho campo deberá contener el número 3. Este campo es obligatorio.
