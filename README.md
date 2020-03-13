@@ -89,6 +89,8 @@ El uso de un valor inválido o fuera de rango, que no esté registrado en las si
 | 4    | 27%                             |
 | 5    | 5%                              |
 | 6    | 2.5%                            |
+| 7    | Exento                          |
+| 8    | No Gravado                      |
 
 ### Concepto Factura                
 | Id   | Nombre                          |
