@@ -15,8 +15,12 @@ Para poder hacer uso de la API, se requiere lo siguiente:
 * Acceso a Internet para la generación de las peticiones HTTP.
 * Posibilidad en su sistema de enviar información en formato JSON cumpliendo con los datos más adelante descriptos.
 
+## Novedades
+
+* A partir del 1º de Julio de 2021 los Responsables Inscriptos que facturen a Monotributistas (con CUIT y condición impositiva declarada) serán automáticamente emitidos como comprobantes tipo "A" en lugar de "B". Esta es una modificación reciente del Decreto 280/97, artículo 39, sustituído por la Ley 27.618 de Régimen de sostenimiento e inclusión fiscal para pequeños contribuyentes.
+
 ## Entorno de pruebas
-Para utilizar un sandbox de la versión oficial, por favor abrir un ticket en soporte técnico solicitando la activación del mismo.
+Para utilizar un sandbox de la versión oficial, deberás abrir un ticket en soporte técnico solicitando la activación del mismo.
 
 ## APIS Disponibles
 Las siguientes peticiones API son las que puede integrar con su sistema
